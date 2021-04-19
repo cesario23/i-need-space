@@ -27,6 +27,7 @@ h2 {
     align-items: center;
     background-color: #00b4d8;
     padding: 0 24px;
+    background-image: url('assets/satellite-image.jpeg');
 }
 
 .section {
@@ -79,3 +80,37 @@ button {
 button:hover {
     box-shadow: 0 0 20px #caf0f8;
 }
+
+#prise{
+    visibility: hidden;
+}
+#trise {
+    margin-left: 25px;
+}
+
+#trise:hover + #prise {
+    visibility: visible;
+    color: red;
+}
+
+#pculmination{
+    visibility: hidden;
+}
+#tculmination:hover + #pculmination {
+    visibility: visible;
+    color: red;
+}
+
+#pset{
+    visibility: hidden;
+}
+#tset:hover + #pset{
+    visibility: visible;
+    color: red;
+}
+#last-section {
+border-radius: 40px;
+display: flex;
+align-items: center;
+}
+
